@@ -127,14 +127,14 @@
 				480BC0FB2519A1E700611BF3 /* AppDelegate.swift */,
 				480BC0FD2519A1E700611BF3 /* SceneDelegate.swift */,
 				480BC1012519A1E700611BF3 /* Main.storyboard */,
-				4833D3062524DDF800B8894A /* MovieGridViewController.swift */,
 				480BC1312519AA1100611BF3 /* MoviesViewController.swift */,
 				480BC1392519B21D00611BF3 /* MovieCell.swift */,
 				48198B9F2522543700F4563F /* MovieDetailsViewController.swift */,
+				4833D3062524DDF800B8894A /* MovieGridViewController.swift */,
+				4833D30B2524E82100B8894A /* MovieGridCell.swift */,
 				480BC1042519A1E800611BF3 /* Assets.xcassets */,
 				480BC1062519A1E800611BF3 /* LaunchScreen.storyboard */,
 				480BC1092519A1E800611BF3 /* Info.plist */,
-				4833D30B2524E82100B8894A /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";

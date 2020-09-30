@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-762" y="338"/>
+            <point key="canvasLocation" x="-1204" y="1037"/>
         </scene>
         <!--Movie Details View Controller-->
         <scene sceneID="EdP-6P-ux7">
@@ -150,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Qj-0v-PJm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="103" y="338"/>
+            <point key="canvasLocation" x="-86" y="1037"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="O3d-Fl-Bca">
@@ -169,7 +169,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="arW-ic-6PQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-762" y="-404"/>
+            <point key="canvasLocation" x="-1204" y="-404"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="N6p-0G-kTQ">
@@ -206,6 +206,7 @@
                                         <size key="customSize" width="188" height="288"/>
                                         <connections>
                                             <outlet property="posterView" destination="WG1-f3-G7E" id="4Bd-Ds-0Nf"/>
+                                            <segue destination="Xti-1D-90T" kind="show" id="1LP-ns-Cmi"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -221,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gSt-vL-icG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1639.1304347826087" y="-404.46428571428572"/>
+            <point key="canvasLocation" x="1045" y="306"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="bSH-3l-fM3">
@@ -240,9 +241,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PUW-YY-pIW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728.98550724637687" y="-404.46428571428572"/>
+            <point key="canvasLocation" x="1046" y="-404"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1LP-ns-Cmi"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
