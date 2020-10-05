@@ -214,9 +214,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jL7-yU-LwL">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jL7-yU-LwL">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="v3F-5D-in5">
                                     <size key="itemSize" width="188" height="288"/>
@@ -249,6 +248,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CuP-7K-5oo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jL7-yU-LwL" firstAttribute="leading" secondItem="CuP-7K-5oo" secondAttribute="leading" id="L46-2Y-MXP"/>
+                            <constraint firstItem="jL7-yU-LwL" firstAttribute="top" secondItem="4GZ-c0-6DE" secondAttribute="top" id="P1y-Zd-09I"/>
+                            <constraint firstAttribute="bottom" secondItem="jL7-yU-LwL" secondAttribute="bottom" id="QRU-yL-nJb"/>
+                            <constraint firstItem="jL7-yU-LwL" firstAttribute="trailing" secondItem="CuP-7K-5oo" secondAttribute="trailing" id="kA6-cG-EKL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Superhero" id="AjK-Uu-Fnw"/>
                     <connections>
@@ -280,7 +285,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="m9j-WE-ZdC"/>
+        <segue reference="1LP-ns-Cmi"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
